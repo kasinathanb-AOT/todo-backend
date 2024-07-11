@@ -13,7 +13,7 @@ const createTask = (req, res) => {
 
   try {
     const id = v4();
-    const status = true;
+    const status = false;
     const task = {
       id,
       taskName,
